@@ -122,12 +122,8 @@ body {
     font-size: 15px;
 }
 
-
-
 /* perso custom */
-div.fe-box
-img.bot-pict{
-    background-color: #1a1a1a;
+div.fe-box img.bot-pict{
     width: 10 px;
     height: 10 px;
 }
