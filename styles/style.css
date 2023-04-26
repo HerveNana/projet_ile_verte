@@ -130,6 +130,10 @@ body {
     align-items: center;
 }
 
+#close {
+    display: none;
+}
+
 #hero{
     background-image: url("../img/Fruits_et_legumes2r.png");
     height: 90vh;
@@ -553,8 +557,15 @@ footer .copyright{
         background-color: #E3E6F3;
         box-shadow: 0 40px 60px rgba(0,0,0,0.1);
         padding: 80px 0 0 ;
+        transition: 0.3s;
     
     }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+
     #navbar li {
         margin-bottom: 25px;
     }
@@ -569,6 +580,19 @@ footer .copyright{
         font-size: 24px;
         padding-left: 20px;
     }
-
+    #close{ 
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
     
-}
+    #hero {
+        background-image: url("../img/Fruits_et_legumes2r.png");
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+       
+    }
